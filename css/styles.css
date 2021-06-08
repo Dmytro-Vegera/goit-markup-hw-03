@@ -354,6 +354,8 @@ img {
 .filter-item {
   margin-right: 8px;
   margin-bottom: 16px;
+  padding: 6px 22px;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -363,6 +365,7 @@ img {
   cursor: pointer;
   color: var(--title-text-color);
   background-color: var(--third-bg-color);
+  border: 0;
   border-radius: 4px;
 }
 
