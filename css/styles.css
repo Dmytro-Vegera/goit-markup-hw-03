@@ -182,8 +182,13 @@ img {
   cursor: pointer;
   color: var(--secondary-text-color);
   background-color: var(--accent-color);
+  border: 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.order-service:hover {
+  background-color: #188ce8;
 }
 
 /* Features */
@@ -357,6 +362,8 @@ img {
   letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--title-text-color);
+  background-color: var(--third-bg-color);
+  border-radius: 4px;
 }
 
 .filter-item:hover,
